@@ -1,0 +1,23 @@
+.SWCharList {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.charList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.charList li {
+    display: flex;
+    width: 49%;
+    flex-flow: column wrap;
+    border: 1px solid black;
+}
