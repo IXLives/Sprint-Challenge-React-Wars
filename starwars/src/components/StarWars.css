@@ -17,7 +17,7 @@ li {
 
 .charList li {
     display: flex;
-    width: 40%;
-    flex-flow: column nowrap;
+    width: 49%;
+    flex-flow: column wrap;
     border: 1px solid black;
 }
