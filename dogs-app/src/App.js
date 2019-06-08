@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import DogList from './components/dogList';
+import DogList from "./components/dogList";
 
 class App extends Component {
   constructor() {

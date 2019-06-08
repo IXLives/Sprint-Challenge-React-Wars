@@ -37,10 +37,18 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <div className = 'content'>
-          <Buttons function="Previous" getCharacters={this.getCharacters} currentCharacters={this.state.starwarsChars}/>
+        <div className="content">
+          <Buttons
+            function="Previous"
+            getCharacters={this.getCharacters}
+            currentCharacters={this.state.starwarsChars}
+          />
           <SWCharList characters={this.state.starwarsChars} />
-          <Buttons function="Next" getCharacters={this.getCharacters} currentCharacters={this.state.starwarsChars}/>
+          <Buttons
+            function="Next"
+            getCharacters={this.getCharacters}
+            currentCharacters={this.state.starwarsChars}
+          />
         </div>
       </div>
     );
