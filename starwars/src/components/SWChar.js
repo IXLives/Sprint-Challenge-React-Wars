@@ -4,9 +4,9 @@ const SWChar = props => {
   return (
     <li>
       <h2>{props.character.name}</h2>
-      <p>Year of Birth: {props.character.birth_year}</p>
-      <p>Gender: {props.character.gender}</p>
-      <p>Height: {props.character.height}</p>
+      <p><strong>Year of Birth: </strong>{props.character.birth_year}</p>
+      <p><strong>Gender: </strong>{props.character.gender}</p>
+      <p><strong>Height: </strong>{props.character.height}</p>
     </li>
   );
 };

@@ -10,4 +10,17 @@
   border: 1PX Solid black;
   height: auto;
 }
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  width: 100%;
+  background: none;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 2rem;
+}
 /* write your parent styles in here for your App.js */

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import SWCharList from "./components/SWCharList";
+import Buttons from "./components/Buttons";
 
 class App extends Component {
   constructor() {
@@ -36,7 +37,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <SWCharList characters={this.state.starwarsChars} />
+        <div className = 'content'>
+          <Buttons function="Previous" />
+          <SWCharList characters={this.state.starwarsChars} />
+          <Buttons function="Next" />
+        </div>
       </div>
     );
   }
