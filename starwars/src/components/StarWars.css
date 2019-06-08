@@ -10,14 +10,14 @@ li {
 
 .charList {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 
 .charList li {
     display: flex;
-    width: 50%;
+    width: 40%;
     flex-flow: column nowrap;
     border: 1px solid black;
 }
