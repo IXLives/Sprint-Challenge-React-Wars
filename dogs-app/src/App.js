@@ -33,7 +33,6 @@ class App extends Component {
       <div className="App">
         <h1 className="Header">Dog Breeds</h1>
         <DogList breeds={this.state.dogBreeds} />
-        {console.log(this.state.dogBreeds)}
       </div>
     );
   }

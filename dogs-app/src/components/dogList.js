@@ -4,8 +4,10 @@ import DogItem from './dogItem';
 const DogList = props => {
     return (
         <div className = 'dogList'>
-            <DogItem breeds={Array.from(props)} />
-            
+            {console.log(props)}
+            {Array.from(props).map(breed => {
+                return <DogItem breeds={breed} />
+            })}
         </div>
       );
 }
